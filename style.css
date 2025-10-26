@@ -1,0 +1,97 @@
+/* 
+==================================
+TEMPORALAI FRONTEND CHALLENGE STYLE
+==================================
+🎯 Goal:
+- Make the hero section centered and responsive
+- Use modern, minimal design
+- Keep your code clean and commented
+*/
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base page styling */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0d0d0d;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Hero container */
+.hero {
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+/* Logo / Brand */
+.logo {
+  font-size: 1.4rem;
+  color: #00c2ff;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+/* Title text */
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00c2ff, #6a00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+/* Subtitle text */
+.hero-subtitle {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+  color: #d6d6d6;
+}
+
+/* Button styling */
+.cta-btn {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  background: #00c2ff;
+  color: #0d0d0d;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #6a00ff;
+  color: #fff;
+}
+
+/* Footer text */
+.footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
