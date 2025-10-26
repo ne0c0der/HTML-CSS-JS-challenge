@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/preview.png" alt="TemporalAI Frontend Challenge Preview" width="600"/>
+</p>
+
 # TemporalAI Frontend Challenge — Hero Section
 
 Welcome to the early builder track 👋  
